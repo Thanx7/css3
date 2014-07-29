@@ -7,11 +7,8 @@ a {
 }
 
 a:hover {
-  color: #999;
-}
-
-.triangle {
-  font-size: 12px;
+  color: #1f45fc;
+  text-decoration: underline;
 }
 
 .navigation {
@@ -20,7 +17,7 @@ a:hover {
   width: 250px; 
   height: 25px; 
   margin: 20px auto;
-  background: #6599ff;
+  background-color: #c4e8ff;
   position: relative; 
   z-index: 100;
 }
@@ -42,10 +39,9 @@ a:hover {
   height: 25px;
   font-family: Arial, sans-serif;
   font-size: 15px;
-  font-weight: bold;
   text-align: center;
   text-decoration: none;
-  color: #333399;
+  color: #2a6496;
   -webkit-transition: 0.1s ease-in-out;
   -o-transition: 0.1s ease-in-out;
   transition: 0.1s ease-in-out;
@@ -55,14 +51,13 @@ a:hover {
 
 .navigation:hover a.main {
   color: #1f45fc;
-  background: rgba(0,0,0,0.04);
 }
 
 .navigation li { 
   width: 250px; 
-  height: 20px;
+  height: 18px;
   font-family: Arial, sans-serif;
-  font-size: 13px;
+  font-size: 12px;
   text-align: center;
   margin: 0;
   -webkit-transform-origin: 50% 0%;
@@ -71,214 +66,214 @@ a:hover {
   -webkit-transform: perspective(350px) rotateX(-90deg);
   -o-transform: perspective(350px) rotateX(-90deg);
   transform: perspective(350px) rotateX(-90deg);
-  box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
-  -webkit-box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
-  -moz-box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  -webkit-box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  -moz-box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
 .navigation li:nth-child(even) {
-  background: #eee;
+  background: #f0f0f0;
 }
 
 .navigation li:nth-child(odd) {
-  background: #ddd;
+  background: #e8e8e8;
 }
 
 .navigation li:last-child {
-  background: #6599ff;
-  border-radius: 0px 0px 4px 4px;
+  background: #c4e8ff;
+  border-radius: 0 0 4px 4px;
 }
 
 .navigation li.n1 { 
-  -webkit-transition: 0.1s linear 3.2s;
-  -o-transition: 0.1s linear 3.2s;
-  transition: 0.1s linear 3.2s;
+  -webkit-transition: 0.1s linear 0.96s;
+  -o-transition: 0.1s linear 0.96s;
+  transition: 0.1s linear 0.96s;
 }
 
 .navigation li.n2 { 
-  -webkit-transition: 0.1s linear 3.1s;
-  -o-transition: 0.1s linear 3.1s;
-  transition: 0.1s linear 3.1s;
+  -webkit-transition: 0.1s linear 0.93s;
+  -o-transition: 0.1s linear 0.93s;
+  transition: 0.1s linear 0.93s;
 }
 
 .navigation li.n3 { 
-  -webkit-transition: 0.1s linear 3.0s;
-  -o-transition: 0.1s linear 3.0s;
-  transition: 0.1s linear 3.0s;
-}
-
-.navigation li.n4 { 
-  -webkit-transition: 0.1s linear 2.9s;
-  -o-transition: 0.1s linear 2.9s;
-  transition: 0.1s linear 2.9s;
-}
-
-.navigation li.n5 { 
-  -webkit-transition: 0.1s linear 2.8s;
-  -o-transition: 0.1s linear 2.8s;
-  transition: 0.1s linear 2.8s;
-}
-
-.navigation li.n6 { 
-  -webkit-transition: 0.1s linear 2.7s;
-  -o-transition: 0.1s linear 2.7s;
-  transition: 0.1s linear 2.7s;
-}
-
-.navigation li.n7 { 
-  -webkit-transition: 0.1s linear 2.6s;
-  -o-transition: 0.1s linear 2.6s;
-  transition: 0.1s linear 2.6s;
-}
-
-.navigation li.n8 { 
-  -webkit-transition: 0.1s linear 2.5s;
-  -o-transition: 0.1s linear 2.5s;
-  transition: 0.1s linear 2.5s;
-}
-
-.navigation li.n9 { 
-  -webkit-transition: 0.1s linear 2.4s;
-  -o-transition: 0.1s linear 2.4s;
-  transition: 0.1s linear 2.4s;
-}
-
-.navigation li.n10 { 
-  -webkit-transition: 0.1s linear 2.3s;
-  -o-transition: 0.1s linear 2.3s;
-  transition: 0.1s linear 2.3s;
-}
-
-.navigation li.n11 { 
-  -webkit-transition: 0.1s linear 2.2s;
-  -o-transition: 0.1s linear 2.2s;
-  transition: 0.1s linear 2.2s;
-}
-
-.navigation li.n12 { 
-  -webkit-transition: 0.1s linear 2.1s;
-  -o-transition: 0.1s linear 2.1s;
-  transition: 0.1s linear 2.1s;
-}
-
-.navigation li.n13 { 
-  -webkit-transition: 0.1s linear 2.0s;
-  -o-transition: 0.1s linear 2.0s;
-  transition: 0.1s linear 2.0s;
-}
-
-.navigation li.n14 { 
-  -webkit-transition: 0.1s linear 1.9s;
-  -o-transition: 0.1s linear 1.9s;
-  transition: 0.1s linear 1.9s;
-}
-
-.navigation li.n15 { 
-  -webkit-transition: 0.1s linear 1.8s;
-  -o-transition: 0.1s linear 1.8s;
-  transition: 0.1s linear 1.8s;
-}
-
-.navigation li.n16 { 
-  -webkit-transition: 0.1s linear 1.7s;
-  -o-transition: 0.1s linear 1.7s;
-  transition: 0.1s linear 1.7s;
-}
-
-.navigation li.n17 { 
-  -webkit-transition: 0.1s linear 1.6s;
-  -o-transition: 0.1s linear 1.6s;
-  transition: 0.1s linear 1.6s;
-}
-
-.navigation li.n18 { 
-  -webkit-transition: 0.1s linear 1.5s;
-  -o-transition: 0.1s linear 1.5s;
-  transition: 0.1s linear 1.5s;
-}
-
-.navigation li.n19 { 
-  -webkit-transition: 0.1s linear 1.4s;
-  -o-transition: 0.1s linear 1.4s;
-  transition: 0.1s linear 1.4s;
-}
-
-.navigation li.n20 { 
-  -webkit-transition: 0.1s linear 1.3s;
-  -o-transition: 0.1s linear 1.3s;
-  transition: 0.1s linear 1.3s;
-}
-
-.navigation li.n21 { 
-  -webkit-transition: 0.1s linear 1.2s;
-  -o-transition: 0.1s linear 1.2s;
-  transition: 0.1s linear 1.2s;
-}
-
-.navigation li.n22 { 
-  -webkit-transition: 0.1s linear 1.1s;
-  -o-transition: 0.1s linear 1.1s;
-  transition: 0.1s linear 1.1s;
-}
-
-.navigation li.n23 { 
-  -webkit-transition: 0.1s linear 1.0s;
-  -o-transition: 0.1s linear 1.0s;
-  transition: 0.1s linear 1.0s;
-}
-
-.navigation li.n24 { 
   -webkit-transition: 0.1s linear 0.9s;
   -o-transition: 0.1s linear 0.9s;
   transition: 0.1s linear 0.9s;
 }
 
-.navigation li.n25 { 
-  -webkit-transition: 0.1s linear 0.8s;
-  -o-transition: 0.1s linear 0.8s;
-  transition: 0.1s linear 0.8s;
+.navigation li.n4 { 
+  -webkit-transition: 0.1s linear 0.87s;
+  -o-transition: 0.1s linear 0.87s;
+  transition: 0.1s linear 0.87s;
 }
 
-.navigation li.n26 { 
-  -webkit-transition: 0.1s linear 0.7s;
-  -o-transition: 0.1s linear 0.7s;
-  transition: 0.1s linear 0.7s;
+.navigation li.n5 { 
+  -webkit-transition: 0.1s linear 0.84s;
+  -o-transition: 0.1s linear 0.84s;
+  transition: 0.1s linear 0.84s;
 }
 
-.navigation li.n27 { 
+.navigation li.n6 { 
+  -webkit-transition: 0.1s linear 0.81s;
+  -o-transition: 0.1s linear 0.81s;
+  transition: 0.1s linear 0.81s;
+}
+
+.navigation li.n7 { 
+  -webkit-transition: 0.1s linear 0.78s;
+  -o-transition: 0.1s linear 0.78s;
+  transition: 0.1s linear 0.78s;
+}
+
+.navigation li.n8 { 
+  -webkit-transition: 0.1s linear 0.75s;
+  -o-transition: 0.1s linear 0.75s;
+  transition: 0.1s linear 0.75s;
+}
+
+.navigation li.n9 { 
+  -webkit-transition: 0.1s linear 0.72s;
+  -o-transition: 0.1s linear 0.72s;
+  transition: 0.1s linear 0.72s;
+}
+
+.navigation li.n10 { 
+  -webkit-transition: 0.1s linear 0.69s;
+  -o-transition: 0.1s linear 0.69s;
+  transition: 0.1s linear 0.69s;
+}
+
+.navigation li.n11 { 
+  -webkit-transition: 0.1s linear 0.66s;
+  -o-transition: 0.1s linear 0.66s;
+  transition: 0.1s linear 0.66s;
+}
+
+.navigation li.n12 { 
+  -webkit-transition: 0.1s linear 0.63s;
+  -o-transition: 0.1s linear 0.63s;
+  transition: 0.1s linear 0.63s;
+}
+
+.navigation li.n13 { 
   -webkit-transition: 0.1s linear 0.6s;
   -o-transition: 0.1s linear 0.6s;
   transition: 0.1s linear 0.6s;
 }
 
-.navigation li.n28 { 
-  -webkit-transition: 0.1s linear 0.5s;
-  -o-transition: 0.1s linear 0.5s;
-  transition: 0.1s linear 0.5s;
+.navigation li.n14 { 
+  -webkit-transition: 0.1s linear 0.57s;
+  -o-transition: 0.1s linear 0.57s;
+  transition: 0.1s linear 0.57s;
 }
 
-.navigation li.n29 { 
-  -webkit-transition: 0.1s linear 0.4s;
-  -o-transition: 0.1s linear 0.4s;
-  transition: 0.1s linear 0.4s;
+.navigation li.n15 { 
+  -webkit-transition: 0.1s linear 0.54s;
+  -o-transition: 0.1s linear 0.54s;
+  transition: 0.1s linear 0.54s;
 }
 
-.navigation li.n30 {
+.navigation li.n16 { 
+  -webkit-transition: 0.1s linear 0.51s;
+  -o-transition: 0.1s linear 0.51s;
+  transition: 0.1s linear 0.51s;
+}
+
+.navigation li.n17 { 
+  -webkit-transition: 0.1s linear 0.48s;
+  -o-transition: 0.1s linear 0.48s;
+  transition: 0.1s linear 0.48s;
+}
+
+.navigation li.n18 { 
+  -webkit-transition: 0.1s linear 0.45s;
+  -o-transition: 0.1s linear 0.45s;
+  transition: 0.1s linear 0.45s;
+}
+
+.navigation li.n19 { 
+  -webkit-transition: 0.1s linear 0.42s;
+  -o-transition: 0.1s linear 0.42s;
+  transition: 0.1s linear 0.42s;
+}
+
+.navigation li.n20 { 
+  -webkit-transition: 0.1s linear 0.39s;
+  -o-transition: 0.1s linear 0.39s;
+  transition: 0.1s linear 0.39s;
+}
+
+.navigation li.n21 { 
+  -webkit-transition: 0.1s linear 0.36s;
+  -o-transition: 0.1s linear 0.36s;
+  transition: 0.1s linear 0.36s;
+}
+
+.navigation li.n22 { 
+  -webkit-transition: 0.1s linear 0.33s;
+  -o-transition: 0.1s linear 0.33s;
+  transition: 0.1s linear 0.33s;
+}
+
+.navigation li.n23 { 
   -webkit-transition: 0.1s linear 0.3s;
   -o-transition: 0.1s linear 0.3s;
   transition: 0.1s linear 0.3s;
 }
 
+.navigation li.n24 { 
+  -webkit-transition: 0.1s linear 0.27s;
+  -o-transition: 0.1s linear 0.27s;
+  transition: 0.1s linear 0.27s;
+}
+
+.navigation li.n25 { 
+  -webkit-transition: 0.1s linear 0.24s;
+  -o-transition: 0.1s linear 0.24s;
+  transition: 0.1s linear 0.24s;
+}
+
+.navigation li.n26 { 
+  -webkit-transition: 0.1s linear 0.21s;
+  -o-transition: 0.1s linear 0.21s;
+  transition: 0.1s linear 0.21s;
+}
+
+.navigation li.n27 { 
+  -webkit-transition: 0.1s linear 0.18s;
+  -o-transition: 0.1s linear 0.18s;
+  transition: 0.1s linear 0.18s;
+}
+
+.navigation li.n28 { 
+  -webkit-transition: 0.1s linear 0.15s;
+  -o-transition: 0.1s linear 0.15s;
+  transition: 0.1s linear 0.15s;
+}
+
+.navigation li.n29 { 
+  -webkit-transition: 0.1s linear 0.12s;
+  -o-transition: 0.1s linear 0.12s;
+  transition: 0.1s linear 0.12s;
+}
+
+.navigation li.n30 {
+  -webkit-transition: 0.1s linear 0.09s;
+  -o-transition: 0.1s linear 0.09s;
+  transition: 0.1s linear 0.09s;
+}
+
 .navigation li.n31 {
-  -webkit-transition: 0.1s linear 0.2s;
-  -o-transition: 0.1s linear 0.2s;
-  transition: 0.1s linear 0.2s;
+  -webkit-transition: 0.1s linear 0.06s;
+  -o-transition: 0.1s linear 0.06s;
+  transition: 0.1s linear 0.06s;
 }
 
 .navigation li.n32 { 
-  -webkit-transition:0.1s linear 0.1s;
-  -o-transition:0.1s linear 0.1s;
-  transition:0.1s linear 0.1s;
+  -webkit-transition:0.1s linear 0.03s;
+  -o-transition:0.1s linear 0.03s;
+  transition:0.1s linear 0.03s;
 }
 
 .navigation li.n33 {
@@ -297,193 +292,197 @@ a:hover {
 }
 
 .navigation:hover .n2 {
-  -webkit-transition-delay: 0.1s;
-  -o-transition-delay: 0.1s;
-  transition-delay: 0.1s;
+  -webkit-transition-delay: 0.03s;
+  -o-transition-delay: 0.03s;
+  transition-delay: 0.03s;
 }
 
 .navigation:hover .n3 {
-  -webkit-transition-delay: 0.2s;
-  -o-transition-delay: 0.2s;
-  transition-delay: 0.2s;
+  -webkit-transition-delay: 0.06s;
+  -o-transition-delay: 0.06s;
+  transition-delay: 0.06s;
 }
 
 .navigation:hover .n4 {
-  transition-delay: 0.3s;
+  transition-delay: 0.09s;
+  -o-transition-delay: 0.09s;
+  transition-delay: 0.09s;
+}
+
+.navigation:hover .n5 {
+  -webkit-transition-delay: 0.12s;
+  -o-transition-delay: 0.12s;
+  transition-delay: 0.12s;
+}
+
+.navigation:hover .n6 {
+  -webkit-transition-delay: 0.15s;
+  -o-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+.navigation:hover .n7 {
+  -webkit-transition-delay: 0.18s;
+  -o-transition-delay: 0.18s;
+  transition-delay: 0.18s;
+}
+
+.navigation:hover .n8 {
+  -webkit-transition-delay: 0.21s;
+  -o-transition-delay: 0.21s;
+  transition-delay: 0.21s;
+}
+
+.navigation:hover .n9 {
+  -webkit-transition-delay: 0.24s;
+  -o-transition-delay: 0.24s;
+  transition-delay: 0.24s;
+}
+
+.navigation:hover .n10 {
+  -webkit-transition-delay: 0.27s;
+  -o-transition-delay: 0.27s;
+  transition-delay: 0.27s;
+}
+
+.navigation:hover .n11 {
+  -webkit-transition-delay: 0.3s;
   -o-transition-delay: 0.3s;
   transition-delay: 0.3s;
 }
 
-.navigation:hover .n5 {
-  -webkit-transition-delay: 0.4s;
-  -o-transition-delay: 0.4s;
-  transition-delay: 0.4s;
+.navigation:hover .n12 {
+  -webkit-transition-delay: 0.33s;
+  -o-transition-delay: 0.33s;
+  transition-delay: 0.33s;
 }
 
-.navigation:hover .n6 {
-  -webkit-transition-delay: 0.5s;
-  -o-transition-delay: 0.5s;
-  transition-delay: 0.5s;
+.navigation:hover .n13 {
+  -webkit-transition-delay: 0.36s;
+  -o-transition-delay: 0.36s;
+  transition-delay: 0.36s;
 }
 
-.navigation:hover .n7 {
+.navigation:hover .n14 {
+  -webkit-transition-delay: 0.39s;
+  -o-transition-delay: 0.39s;
+  transition-delay: 0.39s;
+}
+
+.navigation:hover .n15 {
+  -webkit-transition-delay: 0.42s;
+  -o-transition-delay: 0.42s;
+  transition-delay: 0.42s;
+}
+
+.navigation:hover .n16 {
+  -webkit-transition-delay: 0.45s;
+  -o-transition-delay: 0.45s;
+  transition-delay: 0.45s;
+}
+
+.navigation:hover .n17 {
+  -webkit-transition-delay: 0.48s;
+  -o-transition-delay: 0.48s;
+  transition-delay: 0.48s;
+}
+
+.navigation:hover .n18 {
+  -webkit-transition-delay: 0.51s;
+  -o-transition-delay: 0.51s;
+  transition-delay: 0.51s;
+}
+
+.navigation:hover .n19 {
+  -webkit-transition-delay: 0.54s;
+  -o-transition-delay: 0.54s;
+  transition-delay: 0.54s;
+}
+
+.navigation:hover .n20 {
+  -webkit-transition-delay: 0.57s;
+  -o-transition-delay: 0.57s;
+  transition-delay: 0.57s;
+}
+
+.navigation:hover .n21 {
   -webkit-transition-delay: 0.6s;
   -o-transition-delay: 0.6s;
   transition-delay: 0.6s;
 }
 
-.navigation:hover .n8 {
-  -webkit-transition-delay: 0.7s;
-  -o-transition-delay: 0.7s;
-  transition-delay: 0.7s;
+.navigation:hover .n22 {
+  -webkit-transition-delay: 0.63s;
+  -o-transition-delay: 0.63s;
+  transition-delay: 0.63s;
 }
 
-.navigation:hover .n9 {
-  -webkit-transition-delay: 0.8s;
-  -o-transition-delay: 0.8s;
-  transition-delay: 0.8s;
+.navigation:hover .n23 {
+  -webkit-transition-delay: 0.66s;
+  -o-transition-delay: 0.66s;
+  transition-delay: 0.66s;
 }
 
-.navigation:hover .n10 {
+.navigation:hover .n24 {
+  -webkit-transition-delay: 0.69s;
+  -o-transition-delay: 0.69s;
+  transition-delay: 0.69s;
+}
+
+.navigation:hover .n25 {
+  -webkit-transition-delay: 0.72s;
+  -o-transition-delay: 0.72s;
+  transition-delay: 0.72s;
+}
+
+.navigation:hover .n26 {
+  -webkit-transition-delay: 0.75s;
+  -o-transition-delay: 0.75s;
+  transition-delay: 0.75s;
+}
+
+.navigation:hover .n27 {
+  -webkit-transition-delay: 0.78s;
+  -o-transition-delay: 0.78s;
+  transition-delay: 0.78s;
+}
+
+.navigation:hover .n28 {
+  -webkit-transition-delay: 0.81s;
+  -o-transition-delay: 0.81s;
+  transition-delay: 0.81s;
+}
+
+.navigation:hover .n29 {
+  -webkit-transition-delay: 0.84s;
+  -o-transition-delay: 0.84s;
+  transition-delay: 0.84s;
+}
+
+.navigation:hover .n30 {
+  -webkit-transition-delay: 0.87s;
+  -o-transition-delay: 0.87s;
+  transition-delay: 0.87s;
+}
+
+.navigation:hover .n31 {
   -webkit-transition-delay: 0.9s;
   -o-transition-delay: 0.9s;
   transition-delay: 0.9s;
 }
 
-.navigation:hover .n11 {
-  -webkit-transition-delay: 1.0s;
-  -o-transition-delay: 1.0s;
-  transition-delay: 1.0s;
-}
-
-.navigation:hover .n12 {
-  -webkit-transition-delay: 1.1s;
-  -o-transition-delay: 1.1s;
-  transition-delay: 1.1s;
-}
-
-.navigation:hover .n13 {
-  -webkit-transition-delay: 1.2s;
-  -o-transition-delay: 1.2s;
-  transition-delay: 1.2s;
-}
-
-.navigation:hover .n14 {
-  -webkit-transition-delay: 1.3s;
-  -o-transition-delay: 1.3s;
-  transition-delay: 1.3s;
-}
-
-.navigation:hover .n15 {
-  -webkit-transition-delay: 1.4s;
-  -o-transition-delay: 1.4s;
-  transition-delay: 1.4s;
-}
-
-.navigation:hover .n16 {
-  -webkit-transition-delay: 1.5s;
-  -o-transition-delay: 1.5s;
-  transition-delay: 1.5s;
-}
-
-.navigation:hover .n17 {
-  -webkit-transition-delay: 1.6s;
-  -o-transition-delay: 1.6s;
-  transition-delay: 1.6s;
-}
-
-.navigation:hover .n18 {
-  -webkit-transition-delay: 1.7s;
-  -o-transition-delay: 1.7s;
-  transition-delay: 1.7s;
-}
-
-.navigation:hover .n19 {
-  -webkit-transition-delay: 1.8s;
-  -o-transition-delay: 1.8s;
-  transition-delay: 1.8s;
-}
-
-.navigation:hover .n20 {
-  -webkit-transition-delay: 1.9s;
-  -o-transition-delay: 1.9s;
-  transition-delay: 1.9s;
-}
-
-.navigation:hover .n21 {
-  -webkit-transition-delay: 2.0s;
-  -o-transition-delay: 2.0s;
-  transition-delay: 2.0s;
-}
-
-.navigation:hover .n22 {
-  -webkit-transition-delay: 2.1s;
-  -o-transition-delay: 2.1s;
-  transition-delay: 2.1s;
-}
-
-.navigation:hover .n23 {
-  -webkit-transition-delay: 2.2s;
-  -o-transition-delay: 2.2s;
-  transition-delay: 2.2s;
-}
-
-.navigation:hover .n24 {
-  -webkit-transition-delay: 2.3s;
-  -o-transition-delay: 2.3s;
-  transition-delay: 2.3s;
-}
-
-.navigation:hover .n25 {
-  -webkit-transition-delay: 2.4s;
-  -o-transition-delay: 2.4s;
-  transition-delay: 2.4s;
-}
-
-.navigation:hover .n26 {
-  -webkit-transition-delay: 2.5s;
-  -o-transition-delay: 2.5s;
-  transition-delay: 2.5s;
-}
-
-.navigation:hover .n27 {
-  -webkit-transition-delay: 2.6s;
-  -o-transition-delay: 2.6s;
-  transition-delay: 2.6s;
-}
-
-.navigation:hover .n28 {
-  -webkit-transition-delay: 2.7s;
-  -o-transition-delay: 2.7s;
-  transition-delay: 2.7s;
-}
-
-.navigation:hover .n29 {
-  -webkit-transition-delay: 2.8s;
-  -o-transition-delay: 2.8s;
-  transition-delay: 2.8s;
-}
-
-.navigation:hover .n30 {
-  -webkit-transition-delay: 2.9s;
-  -o-transition-delay: 2.9s;
-  transition-delay: 2.9s;
-}
-
-.navigation:hover .n31 {
-  -webkit-transition-delay: 3.0s;
-  -o-transition-delay: 3.0s;
-  transition-delay: 3.0s;
-}
-
 .navigation:hover .n32 {
-  -webkit-transition-delay: 3.1s;
-  -o-transition-delay: 3.1s;
-  transition-delay: 3.1s;
+  -webkit-transition-delay: 0.93s;
+  -o-transition-delay: 0.93s;
+  transition-delay: 0.93s;
 }
 
 .navigation:hover .n33 {
-  -webkit-transition-delay: 3.2s;
-  -o-transition-delay: 3.2s;
-  transition-delay: 3.2s;
+  -webkit-transition-delay: 0.96s;
+  -o-transition-delay: 0.96s;
+  transition-delay: 0.96s;
+}
+
+.triangle {
+  font-size: 10px;
 }
